@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     // Your Docker Hub repository
-    DOCKER_HUB_REPO = 'vyshnavi525/my-app'
+    DOCKER_HUB_REPO = 'ramavathashwitha/my-app'
     // Tag images like v1, v2, v3...
     IMAGE_TAG = "v${BUILD_NUMBER}"
   }
