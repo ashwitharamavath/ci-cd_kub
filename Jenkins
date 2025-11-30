@@ -54,8 +54,8 @@ pipeline {
       steps {
         echo "🚀 Deploying to Kubernetes (Minikube)..."
         bat """
-        REM Point kubectl to your kubeconfig (change 'ganga' if your username is different)
-        set KUBECONFIG=C:\\Users\\ganga\\.kube\\config
+        REM Point kubectl to your kubeconfig (change 'ashwi' if your username is different)
+        set KUBECONFIG=C:\\Users\\ashwi\\.kube\\config
 
         REM Make sure we are using the minikube context
         kubectl config use-context minikube
